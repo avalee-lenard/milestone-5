@@ -14,3 +14,17 @@ Our journey follows a sailing route from Freeport, Bahamas, toward the Azores wh
 
 How do sea turtle migration patterns connect the Caribbean and the Atlantic Ocean?
 
+
+## Sea Turtle Migration Across the Atlantic
+
+The following map displays 120,718 sea turtle observations
+from the Atlantic study region.
+
+These observations help illustrate the geographic
+distribution of sea turtles across the ocean.
+
+![Sea turtle observations across the Atlantic. Source: OBIS.](migration_map.png)
+
+The red markers identify Freeport, Bahamas, and the
+Azores, Portugal. The sailing route is a proposed journey,
+not a measured turtle migration path.
