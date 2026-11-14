@@ -26,5 +26,89 @@
     "title": "Across the Atlantic",
     "section": "",
     "text": "The following map displays 120,718 sea turtle observations from the Atlantic study region.\nThese observations help illustrate the geographic distribution of sea turtles across the ocean.\n\n\n\nSea turtle observations across the Atlantic. Source: OBIS.\n\n\nThe red markers identify Freeport, Bahamas, and the Azores, Portugal. The sailing route is a proposed journey, not a measured turtle migration path."
+  },
+  {
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Explore Atlantic Sea Turtle Observations",
+    "section": "",
+    "text": "Sea turtles spend almost their entire lives at sea, crossing thousands of miles of open water between coastal nesting beaches and offshore feeding grounds. Ocean observation records allow us to trace where these marine travelers appear across the Atlantic basin."
+  },
+  {
+    "objectID": "explore.html#tracking-sea-turtles-across-an-ocean-basin",
+    "href": "explore.html#tracking-sea-turtles-across-an-ocean-basin",
+    "title": "Explore Atlantic Sea Turtle Observations",
+    "section": "Tracking Sea Turtles Across an Ocean Basin",
+    "text": "Tracking Sea Turtles Across an Ocean Basin\nFor generations, what happened to sea turtles after hatchlings entered the surf remained largely unknown—a period marine biologists famously called the “lost years.” Today, shared global biodiversity records help illuminate how sea turtles use the Atlantic Ocean from the Caribbean and North American coast to mid-ocean islands like the Azores and the waters off Europe and West Africa.\nCompiled from the Ocean Biodiversity Information System (OBIS), the observations on this page span the Atlantic study region from 85°W to 10°E longitude and 5°S to 65°N latitude, encompassing 120,718 recorded sightings and tracking locations."
+  },
+  {
+    "objectID": "explore.html#atlantic-observation-map",
+    "href": "explore.html#atlantic-observation-map",
+    "title": "Explore Atlantic Sea Turtle Observations",
+    "section": "Atlantic Observation Map",
+    "text": "Atlantic Observation Map\n\n\n\n\nSea turtle observations across the Atlantic Ocean from OBIS, with reference markers at Freeport, Bahamas, and the Azores."
+  },
+  {
+    "objectID": "explore.html#what-the-map-shows-and-how-to-interpret-it",
+    "href": "explore.html#what-the-map-shows-and-how-to-interpret-it",
+    "title": "Explore Atlantic Sea Turtle Observations",
+    "section": "What the Map Shows and How to Interpret It",
+    "text": "What the Map Shows and How to Interpret It\nEach dark-cyan dot represents a recorded sea turtle occurrence in OBIS within the Atlantic study window, plotted with partial transparency so overlapping records build into deeper teal shading.\n\nKey Patterns on the Map\n\nReference Landmarks: The two red points mark Freeport, Bahamas (26.5°N, 78.7°W) in the western Atlantic and the Azores (37.7°N, 25.7°W) in the central North Atlantic—anchoring our proposed sailing corridor across the basin.\nCoastal Concentrations: Very dark bands hug the southeastern United States, the Caribbean islands, the Azores archipelago, and the coasts of southwestern Europe and northwestern Africa. Even without a background landmass layer, dense coastal observations trace the outlines of continents and island chains.\nOpen-Ocean Pathways and Gridded Points: Across the open North Atlantic between the Bahamas and the Azores, two visual patterns stand out: continuous curved lines formed by sequential tracking records of moving animals, and evenly spaced dots where certain contributing datasets report sightings aggregated to regular latitude–longitude grid cells.\n\n\nHow to Read Observation Density Carefully: Darker areas indicate more recorded observations, which reflect both high turtle activity and higher human sampling effort (such as coastal patrols, aerial surveys, and tagging programs). Lighter areas in the central ocean do not necessarily mean turtles are absent—open-ocean waters are much harder to survey than coastlines. Likewise, the points show where turtles have been recorded rather than one single migration highway."
+  },
+  {
+    "objectID": "explore.html#atlantic-sea-turtle-species-and-their-distribution",
+    "href": "explore.html#atlantic-sea-turtle-species-and-their-distribution",
+    "title": "Explore Atlantic Sea Turtle Observations",
+    "section": "Atlantic Sea Turtle Species and Their Distribution",
+    "text": "Atlantic Sea Turtle Species and Their Distribution\nMultiple species of sea turtles inhabit the Atlantic Ocean, each occupying distinct ecological niches while overlapping along major ocean currents such as the Gulf Stream and the North Atlantic Gyre:\n\nLoggerhead (Caretta caretta): Widespread across temperate and subtropical Atlantic waters. Juvenile loggerheads hatched on western Atlantic beaches (including Florida and the wider Caribbean region) frequently ride the Gulf Stream into the North Atlantic Gyre, using the nutrient-rich waters around the Azores as an important oceanic foraging ground before returning west as adults.\nLeatherback (Dermochelys coriacea): The largest of all sea turtles and the widest-ranging swimmer. Built for deep diving and cooler water, leatherbacks travel far into northern Atlantic latitudes in search of jellyfish prey while nesting on tropical beaches around the Caribbean, South America, and West Africa.\nGreen Turtle (Chelonia mydas): Primarily herbivorous as adults, congregating in shallow seagrass meadows and coastal lagoons throughout the Bahamas, the Caribbean, South America, and West African islands, while juveniles pass through an oceanic surface-dwelling phase.\nHawksbill (Eretmochelys imbricata): Closely associated with tropical coral reefs, rocky ledges, and sponge habitats across the Bahamas, Caribbean Sea, and tropical Atlantic coasts.\nKemp’s Ridley (Lepidochelys kempii) & Olive Ridley (Lepidochelys olivacea): The smaller ridley species occupy different parts of the basin—Kemp’s ridleys primarily range from the Gulf of Mexico along the U.S. Atlantic seaboard (with occasional juveniles carried eastward by currents), while olive ridleys occur mainly in warmer southern and eastern Atlantic waters."
+  },
+  {
+    "objectID": "explore.html#how-researchers-use-ocean-observations",
+    "href": "explore.html#how-researchers-use-ocean-observations",
+    "title": "Explore Atlantic Sea Turtle Observations",
+    "section": "How Researchers Use Ocean Observations",
+    "text": "How Researchers Use Ocean Observations\nUnderstanding animals that cross international boundaries and vast stretches of open water requires combining several observation methods into shared repositories like OBIS:\n\nSatellite Telemetry: Researchers attach small, harmless transmitters to a turtle’s carapace. Whenever the turtle surfaces to breathe, satellites record its position, revealing travel routes, swimming speeds, and ocean habitats used between coastal seasons.\nFlipper and PIT Tagging: Long-term identification tags applied on nesting beaches or in coastal foraging areas allow scientists to recognize individuals years later—confirming connections between western Atlantic nesting beaches and distant pelagic feeding areas.\nAt-Sea and Aerial Surveys: Research vessels, aircraft transects, and trained fisheries observers document sightings in offshore waters, helping fill gaps beyond the reach of beach monitoring.\nOceanographic Context: By pairing observation coordinates with sea surface temperature, ocean currents, and marine productivity, researchers identify critical migration corridors and foraging hotspots—information essential for reducing bycatch and protecting sea turtles across the entire Atlantic basin."
+  },
+  {
+    "objectID": "story.html",
+    "href": "story.html",
+    "title": "The Atlantic Journey: From the Bahamas to the Azores",
+    "section": "",
+    "text": "From the sun-warmed banks of the Bahamas to the volcanic islands of the Azores, our proposed sailing route crosses an ocean full of movement. Along the way, real marine biodiversity records help us explore how sea turtles use both shallow western habitats and distant mid-Atlantic waters."
+  },
+  {
+    "objectID": "story.html#the-beginning-the-bahamas",
+    "href": "story.html#the-beginning-the-bahamas",
+    "title": "The Atlantic Journey: From the Bahamas to the Azores",
+    "section": "1. The Beginning: The Bahamas",
+    "text": "1. The Beginning: The Bahamas\nAt the western edge of our route around Freeport, the Bahamas offer some of the most productive coastal waters in the subtropical Atlantic. Vast, shallow carbonate banks warm quickly in the sun, supporting lush seagrass meadows, vibrant coral reefs, and sheltered tidal creeks where green, loggerhead, and hawksbill turtles find abundant food and refuge.\nFor many Atlantic sea turtles, warm western Atlantic and Caribbean waters serve as vital feeding grounds and developmental nurseries. Seagrass beds nourish grazing green turtles, while reefs and sandy bottoms provide sponges, crustaceans, and shelter from large open-ocean predators—making the Bahamian archipelago a natural starting point for an Atlantic story."
+  },
+  {
+    "objectID": "story.html#the-atlantic-crossing",
+    "href": "story.html#the-atlantic-crossing",
+    "title": "The Atlantic Journey: From the Bahamas to the Azores",
+    "section": "2. The Atlantic Crossing",
+    "text": "2. The Atlantic Crossing\nBeyond the edge of the Bahamian banks, the seafloor drops sharply and powerful currents—including the Gulf Stream and the broader North Atlantic Gyre—sweep northeastward into the open ocean. Sea turtles undertake long-distance oceanic movements to connect the different habitats they need across their lifespans, riding major currents as young turtles to find surface prey and later swimming across thousands of kilometers between foraging areas and nesting coasts.\n\nChallenges in the Open Ocean: Crossing an ocean basin tests survival at every stage. Moving turtles must navigate shifting water temperatures, patchy food supplies, and natural predators while encountering modern human pressures—including floating plastic debris mistaken for jellyfish, busy transatlantic shipping lanes, and accidental capture (bycatch) in longline and net fisheries."
+  },
+  {
+    "objectID": "story.html#the-azores-a-destination-in-the-atlantic",
+    "href": "story.html#the-azores-a-destination-in-the-atlantic",
+    "title": "The Atlantic Journey: From the Bahamas to the Azores",
+    "section": "3. The Azores: A Destination in the Atlantic",
+    "text": "3. The Azores: A Destination in the Atlantic\nRising abruptly from the Mid-Atlantic Ridge, the Azores form an isolated oasis of nine volcanic islands surrounded by deep ocean. Where currents meet underwater seamounts and island slopes, upwelling nutrients fuel rich blooms of plankton, jellyfish, crustaceans, and fish—turning the surrounding waters into a biological magnet for whales, seabirds, and sea turtles.\nBecause the North Atlantic Gyre naturally carries surface-drifting organisms eastward from the Americas, the waters around the Azores serve as a well-known oceanic foraging ground—especially for juvenile loggerhead turtles growing in the open sea before they eventually return to western Atlantic coastal waters."
+  },
+  {
+    "objectID": "story.html#what-the-data-reveals",
+    "href": "story.html#what-the-data-reveals",
+    "title": "The Atlantic Journey: From the Bahamas to the Azores",
+    "section": "4. What the Data Reveals",
+    "text": "4. What the Data Reveals\n\n\n\n\nSea turtle observations across the Atlantic Ocean from OBIS, showing Freeport, Bahamas, and the Azores.\n\n\n\nCompiled from 120,718 OBIS records across the Atlantic study region, the map reveals a striking bridge of marine life: dense clusters of observations hug the western Atlantic coast around the Bahamas and southeastern North America, scatter across open-ocean latitudes, and concentrate again around the Azores and European coasts. Importantly, these points combine many independent sightings and surveys over time—they do not prove that a single individual turtle swam directly from Freeport to the Azores, and our red markers represent a proposed human sailing route rather than a measured animal track. Even so, the broad distribution demonstrates that both ends of this voyage—and the open waters between them—are active sea turtle habitats."
+  },
+  {
+    "objectID": "story.html#why-this-journey-matters",
+    "href": "story.html#why-this-journey-matters",
+    "title": "The Atlantic Journey: From the Bahamas to the Azores",
+    "section": "5. Why This Journey Matters",
+    "text": "5. Why This Journey Matters\n\nConservation Across Borders: Because sea turtles spend their lives crossing international waters, protecting a single beach or island is never enough. Mapping where turtles are observed—from Bahamian seagrass beds across the high seas to Azorean feeding grounds—helps scientists and policymakers design marine protected areas, adjust fishing practices to reduce bycatch during peak seasons, and safeguard the connected ocean ecosystems that sea turtles depend on to survive."
   }
 ]

@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Explore Atlantic Sea Turtle Observations – Across the Atlantic</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-977607561cd60f84a551947bb62c3781.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Across the Atlantic</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./explore.html" aria-current="page"> 
+<span class="menu-text">Explore</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./story.html"> 
+<span class="menu-text">Story</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tracking-sea-turtles-across-an-ocean-basin" id="toc-tracking-sea-turtles-across-an-ocean-basin" class="nav-link active" data-scroll-target="#tracking-sea-turtles-across-an-ocean-basin">Tracking Sea Turtles Across an Ocean Basin</a></li>
+  <li><a href="#atlantic-observation-map" id="toc-atlantic-observation-map" class="nav-link" data-scroll-target="#atlantic-observation-map">Atlantic Observation Map</a></li>
+  <li><a href="#what-the-map-shows-and-how-to-interpret-it" id="toc-what-the-map-shows-and-how-to-interpret-it" class="nav-link" data-scroll-target="#what-the-map-shows-and-how-to-interpret-it">What the Map Shows and How to Interpret It</a>
+  <ul class="collapse">
+  <li><a href="#key-patterns-on-the-map" id="toc-key-patterns-on-the-map" class="nav-link" data-scroll-target="#key-patterns-on-the-map">Key Patterns on the Map</a></li>
+  </ul></li>
+  <li><a href="#atlantic-sea-turtle-species-and-their-distribution" id="toc-atlantic-sea-turtle-species-and-their-distribution" class="nav-link" data-scroll-target="#atlantic-sea-turtle-species-and-their-distribution">Atlantic Sea Turtle Species and Their Distribution</a></li>
+  <li><a href="#how-researchers-use-ocean-observations" id="toc-how-researchers-use-ocean-observations" class="nav-link" data-scroll-target="#how-researchers-use-ocean-observations">How Researchers Use Ocean Observations</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Explore Atlantic Sea Turtle Observations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+  /* Ocean-inspired styling for the Explore page */
+  .ocean-banner {
+    background: linear-gradient(135deg, #0a3d62 0%, #0e6ba8 55%, #1abc9c 100%);
+    color: #ffffff;
+    padding: 2rem 2.25rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 6px 18px rgba(10, 61, 98, 0.18);
+  }
+  .ocean-banner p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    opacity: 0.95;
+  }
+  h2 {
+    color: #0a4c6a;
+    border-bottom: 2px solid #cbe7f0;
+    padding-bottom: 0.35rem;
+    margin-top: 2.2rem;
+  }
+  h3 {
+    color: #126e82;
+    margin-top: 1.4rem;
+  }
+  .map-frame {
+    background-color: #f4fbfd;
+    border: 1px solid #cce5ed;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 3px 10px rgba(14, 107, 168, 0.08);
+  }
+  .ocean-card {
+    background-color: #f0f9fb;
+    border-left: 5px solid #0e6ba8;
+    padding: 1.1rem 1.4rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1.25rem 0;
+  }
+</style>
+<div class="ocean-banner">
+<p>Sea turtles spend almost their entire lives at sea, crossing thousands of miles of open water between coastal nesting beaches and offshore feeding grounds. Ocean observation records allow us to trace where these marine travelers appear across the Atlantic basin.</p>
+</div>
+<section id="tracking-sea-turtles-across-an-ocean-basin" class="level2">
+<h2 class="anchored" data-anchor-id="tracking-sea-turtles-across-an-ocean-basin">Tracking Sea Turtles Across an Ocean Basin</h2>
+<p>For generations, what happened to sea turtles after hatchlings entered the surf remained largely unknown—a period marine biologists famously called the <strong>“lost years.”</strong> Today, shared global biodiversity records help illuminate how sea turtles use the Atlantic Ocean from the Caribbean and North American coast to mid-ocean islands like the Azores and the waters off Europe and West Africa.</p>
+<p>Compiled from the <strong>Ocean Biodiversity Information System (OBIS)</strong>, the observations on this page span the Atlantic study region from <strong>85°W to 10°E longitude</strong> and <strong>5°S to 65°N latitude</strong>, encompassing <strong>120,718 recorded sightings and tracking locations</strong>.</p>
+</section>
+<section id="atlantic-observation-map" class="level2">
+<h2 class="anchored" data-anchor-id="atlantic-observation-map">Atlantic Observation Map</h2>
+<div class="map-frame">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="migration_map.png" class="img-fluid figure-img"></p>
+<figcaption>Sea turtle observations across the Atlantic Ocean from OBIS, with reference markers at Freeport, Bahamas, and the Azores.</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="what-the-map-shows-and-how-to-interpret-it" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-map-shows-and-how-to-interpret-it">What the Map Shows and How to Interpret It</h2>
+<p>Each dark-cyan dot represents a recorded sea turtle occurrence in OBIS within the Atlantic study window, plotted with partial transparency so overlapping records build into deeper teal shading.</p>
+<section id="key-patterns-on-the-map" class="level3">
+<h3 class="anchored" data-anchor-id="key-patterns-on-the-map">Key Patterns on the Map</h3>
+<ul>
+<li><strong>Reference Landmarks:</strong> The two red points mark <strong>Freeport, Bahamas</strong> (26.5°N, 78.7°W) in the western Atlantic and the <strong>Azores</strong> (37.7°N, 25.7°W) in the central North Atlantic—anchoring our proposed sailing corridor across the basin.</li>
+<li><strong>Coastal Concentrations:</strong> Very dark bands hug the southeastern United States, the Caribbean islands, the Azores archipelago, and the coasts of southwestern Europe and northwestern Africa. Even without a background landmass layer, dense coastal observations trace the outlines of continents and island chains.</li>
+<li><strong>Open-Ocean Pathways and Gridded Points:</strong> Across the open North Atlantic between the Bahamas and the Azores, two visual patterns stand out: continuous curved lines formed by sequential tracking records of moving animals, and evenly spaced dots where certain contributing datasets report sightings aggregated to regular latitude–longitude grid cells.</li>
+</ul>
+<div class="ocean-card">
+<p><strong>How to Read Observation Density Carefully:</strong> Darker areas indicate more recorded observations, which reflect <em>both</em> high turtle activity and higher human sampling effort (such as coastal patrols, aerial surveys, and tagging programs). Lighter areas in the central ocean do not necessarily mean turtles are absent—open-ocean waters are much harder to survey than coastlines. Likewise, the points show where turtles have been recorded rather than one single migration highway.</p>
+</div>
+</section>
+</section>
+<section id="atlantic-sea-turtle-species-and-their-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="atlantic-sea-turtle-species-and-their-distribution">Atlantic Sea Turtle Species and Their Distribution</h2>
+<p>Multiple species of sea turtles inhabit the Atlantic Ocean, each occupying distinct ecological niches while overlapping along major ocean currents such as the Gulf Stream and the North Atlantic Gyre:</p>
+<ul>
+<li><strong>Loggerhead (<em>Caretta caretta</em>):</strong> Widespread across temperate and subtropical Atlantic waters. Juvenile loggerheads hatched on western Atlantic beaches (including Florida and the wider Caribbean region) frequently ride the Gulf Stream into the North Atlantic Gyre, using the nutrient-rich waters around the <strong>Azores</strong> as an important oceanic foraging ground before returning west as adults.</li>
+<li><strong>Leatherback (<em>Dermochelys coriacea</em>):</strong> The largest of all sea turtles and the widest-ranging swimmer. Built for deep diving and cooler water, leatherbacks travel far into northern Atlantic latitudes in search of jellyfish prey while nesting on tropical beaches around the Caribbean, South America, and West Africa.</li>
+<li><strong>Green Turtle (<em>Chelonia mydas</em>):</strong> Primarily herbivorous as adults, congregating in shallow seagrass meadows and coastal lagoons throughout the Bahamas, the Caribbean, South America, and West African islands, while juveniles pass through an oceanic surface-dwelling phase.</li>
+<li><strong>Hawksbill (<em>Eretmochelys imbricata</em>):</strong> Closely associated with tropical coral reefs, rocky ledges, and sponge habitats across the Bahamas, Caribbean Sea, and tropical Atlantic coasts.</li>
+<li><strong>Kemp’s Ridley (<em>Lepidochelys kempii</em>) &amp; Olive Ridley (<em>Lepidochelys olivacea</em>):</strong> The smaller ridley species occupy different parts of the basin—Kemp’s ridleys primarily range from the Gulf of Mexico along the U.S. Atlantic seaboard (with occasional juveniles carried eastward by currents), while olive ridleys occur mainly in warmer southern and eastern Atlantic waters.</li>
+</ul>
+</section>
+<section id="how-researchers-use-ocean-observations" class="level2">
+<h2 class="anchored" data-anchor-id="how-researchers-use-ocean-observations">How Researchers Use Ocean Observations</h2>
+<p>Understanding animals that cross international boundaries and vast stretches of open water requires combining several observation methods into shared repositories like OBIS:</p>
+<ol type="1">
+<li><strong>Satellite Telemetry:</strong> Researchers attach small, harmless transmitters to a turtle’s carapace. Whenever the turtle surfaces to breathe, satellites record its position, revealing travel routes, swimming speeds, and ocean habitats used between coastal seasons.</li>
+<li><strong>Flipper and PIT Tagging:</strong> Long-term identification tags applied on nesting beaches or in coastal foraging areas allow scientists to recognize individuals years later—confirming connections between western Atlantic nesting beaches and distant pelagic feeding areas.</li>
+<li><strong>At-Sea and Aerial Surveys:</strong> Research vessels, aircraft transects, and trained fisheries observers document sightings in offshore waters, helping fill gaps beyond the reach of beach monitoring.</li>
+<li><strong>Oceanographic Context:</strong> By pairing observation coordinates with sea surface temperature, ocean currents, and marine productivity, researchers identify critical migration corridors and foraging hotspots—information essential for reducing bycatch and protecting sea turtles across the entire Atlantic basin.</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/avalee-lenard\.github\.io\/atlantic-turtle-migration\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
